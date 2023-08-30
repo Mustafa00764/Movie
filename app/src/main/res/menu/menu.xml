@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Главное" />
+
+    <item
+        android:id="@+id/mediaFragment"
+        android:icon="@drawable/ic_media"
+        android:title="Медиа" />
+
+    <item
+        android:id="@+id/myFragment"
+        android:icon="@drawable/ic_my"
+        android:title="Моё" />
+
+    <item
+        android:id="@+id/loadingFragment2"
+        android:icon="@drawable/ic_loading"
+        android:title="Поиск" />
+
+    <item
+        android:id="@+id/userHomeFragment"
+        android:icon="@drawable/ic_user_home"
+        android:title="Профиль" />
+</menu>
