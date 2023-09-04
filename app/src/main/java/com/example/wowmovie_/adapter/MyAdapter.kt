@@ -1,4 +1,7 @@
 package com.example.wowmovie_.adapter
 
-class MyAdapter {
+import com.example.wowmovie_.model.My
+
+class MyAdapter(val list: ArrayList<My>) {
+
 }
