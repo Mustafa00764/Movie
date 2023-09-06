@@ -18,15 +18,11 @@
             android:layout_height="wrap_content"/>
     </com.google.android.material.appbar.AppBarLayout>
 
+
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
         android:id="@+id/vp_list"
-        android:layout_height="match_parent">
-
-    </androidx.viewpager.widget.ViewPager>
-
-
-
+        android:layout_height="match_parent"/>
 
 
 </LinearLayout>

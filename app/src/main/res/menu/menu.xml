@@ -7,22 +7,22 @@
         android:title="Главное" />
 
     <item
-        android:id="@+id/mediaFragment"
+        android:id="@+id/mediaFragment2"
         android:icon="@drawable/ic_media"
         android:title="Медиа" />
 
     <item
-        android:id="@+id/myFragment"
+        android:id="@+id/myFragment2"
         android:icon="@drawable/ic_my"
         android:title="Моё" />
 
     <item
-        android:id="@+id/loadingFragment2"
+        android:id="@+id/loadingFragment"
         android:icon="@drawable/ic_loading"
         android:title="Поиск" />
 
     <item
-        android:id="@+id/userHomeFragment"
+        android:id="@+id/userHomeFragment2"
         android:icon="@drawable/ic_user_home"
         android:title="Профиль" />
 </menu>

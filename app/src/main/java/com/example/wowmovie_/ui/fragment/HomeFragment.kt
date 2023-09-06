@@ -15,20 +15,10 @@ import com.example.wowmovie_.ui.fragment.home.HomeSerialFragment
 import com.google.android.material.tabs.TabLayout
 
 
-class HomeFragment : Fragment() {
+class HomeFragment : Fragment(R.layout.fragment_home) {
     lateinit var myadapter: ViewPagerAdapter
     lateinit var title:ArrayList<String>
     lateinit var list:ArrayList<Fragment>
-
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
-
-    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -39,7 +29,7 @@ class HomeFragment : Fragment() {
         val viewPager =view. findViewById<ViewPager>(R.id.vp_list)
         val tabLayout = view.findViewById<TabLayout>(R.id.tablayout_1)
         tabLayout.setupWithViewPager(viewPager)
-        myadapter= ViewPagerAdapter(list,title,requireActivity(). supportFragmentManager)
+        myadapter=ViewPagerAdapter(list,title,requireActivity(). supportFragmentManager)
         viewPager.adapter = myadapter
     }
 
